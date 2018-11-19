@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class Series {
 
     private double numElementos;
-    private double fibonacci1 = 1;
+    private double fibonacci1 = 0;
     private double fibonacci2 = 1;
     
 public double getElementos(){
@@ -39,8 +39,6 @@ public void serieFibonacci(){
     if(i == 0)
       System.out.println("0,");
     else if(i == 1)
-      System.out.println("1,");
-    else if(i == 2)
       System.out.println("1,");
     else{
         fibonacci2 = fibonacci2 + fibonacci1;
