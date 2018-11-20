@@ -10,4 +10,4 @@ public class FastForward {
     }
     
 }
-//estupido conflicto
+// Salir los dos del conflicto
