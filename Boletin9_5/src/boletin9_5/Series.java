@@ -4,13 +4,13 @@ import javax.swing.JOptionPane;
 
 public class Series {
 
-    private double numElementos;
+    private long numElementos;
     private double fibonacci1 = 0;
     private double fibonacci2 = 1;
     
 public double getElementos(){
     do{
-        numElementos = Double.parseDouble(JOptionPane.showInputDialog("Introduce el numero de elementos de la serie"));
+        numElementos = Long.parseLong(JOptionPane.showInputDialog("Introduce el numero de elementos de la serie"));
         if (numElementos <= 0){
             JOptionPane.showMessageDialog(null, "El numero de elementos de la serie no puede ser 0 o negativo");
         }
