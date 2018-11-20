@@ -6,6 +6,7 @@ public class FastForward {
         // Creacion del fichero
         // Otro commit
         // commit de la rama featured
+        // otro commit de la rama featured
     }
     
 }
